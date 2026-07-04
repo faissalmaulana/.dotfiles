@@ -1,0 +1,84 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "ui_font_family": "JetBrains Mono",
+  "buffer_font_family": "JetBrains Mono",
+  "terminal": {
+    "font_family": "JetBrains Mono",
+    "default_height": 440.0
+  },
+  "title_bar": {
+    "show_sign_in": false,
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "edit_predictions": {
+    "provider": "zed",
+  },
+  "collaboration_panel": {
+    "button": false,
+  },
+  "agent": {
+    "button": false,
+    "expand_terminal_card": false,
+    "favorite_models": [],
+    "model_parameters": [],
+    "expand_edit_card": false,
+    "enabled": false,
+  },
+  "project_panel": {
+    "dock": "left",
+  },
+  "disable_ai": true,
+  "read_ssh_config": false,
+  "inline_code_actions": false,
+  "autosave": "on_window_change",
+  "auto_update": false,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "auto_install_extensions": {
+    "html": false,
+    "material-icon-theme": false,
+    "astro": false,
+    "json-language-server": false,
+  },
+  "auto_update_extensions": {
+    "html": false,
+    "material-icon-theme": false,
+    "astro": false,
+    // lsp
+    "vscode-css-language-server": false,
+    "vscode-html-language-server": false,
+    "tailwindcss-language-server": false,
+    "json-language-server": false,
+  },
+  "languages": {},
+  "ui_font_size": 18.0,
+  "buffer_font_size": 17,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+  "file_types": {
+    "C": ["C", "H"]
+  },
+  "lsp": {
+    "tailwindcss-language-server": {
+      "settings": {
+        "experimental": {
+          "classRegex": ["class=\"([^\"]*)\""],
+        },
+      },
+    },
+  },
+}
