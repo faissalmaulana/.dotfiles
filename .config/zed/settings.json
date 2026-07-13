@@ -55,11 +55,6 @@
     "html": false,
     "material-icon-theme": false,
     "astro": false,
-    // lsp
-    "vscode-css-language-server": false,
-    "vscode-html-language-server": false,
-    "tailwindcss-language-server": false,
-    "json-language-server": false,
   },
   "languages": {},
   "ui_font_size": 18.0,
